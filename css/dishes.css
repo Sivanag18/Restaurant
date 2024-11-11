@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+.logo-image {
+    height: 40px; /* Adjust as per the required size */
+    width: auto;
+    display: block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+.restaurant-info, .menu-section, .cart {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.item-info h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;  
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.checkout {
+    display: inline-block;          /* Ensures the button behaves like a block element */
+    text-align: center;             /* Centers the text inside the button */
+    margin: 20px auto;              /* Centers the button horizontally */
+    padding: 10px 20px;             /* Adds padding inside the button */
+    background-color: #28a745;      /* Green background */
+    color: #fff;                    /* White text */
+    text-decoration: none;          /* Removes underline from the link */
+    border-radius: 5px;             /* Rounded corners */
+    font-size: 16px;                /* Font size for better readability */
+    width: fit-content;             /* Ensures the width is based on content */
+}
+
+.checkout:hover {
+    background-color: #218838;      /* Darker green on hover */
+}

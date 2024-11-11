@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Center the logo */
+header .logo img {
+    height: 40px;
+    margin-left: 20px;
+    position: absolute;
+    left: 20px; /* Position the logo to the left */
+}
+
+/* Navigation bar container */
+header nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+/* Navbar items */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between navbar items */
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Checkout page styles */
+.checkout-page {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table td {
+    padding: 8px;
+    text-align: right;
+}
+
+table td:first-child {
+    text-align: left;
+}
+
+strong {
+    color: #333;
+}
+
+.payment-option {
+    margin-bottom: 20px;
+}
+
+.payment-option label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Success message */
+.alert.success {
+    color: green;
+    font-weight: bold;
+}
+
+/* Button styles */
+.btn-submit {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

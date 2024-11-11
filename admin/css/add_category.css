@@ -1,0 +1,100 @@
+  /* Header */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo-image {
+    height: 40px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links a,
+.navbar .logout-btn {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.navbar .logout-btn {
+    background-color: #dc3545;
+}
+
+.navbar .nav-links a:hover,
+.navbar .logout-btn:hover {
+    background-color: #495057;
+}
+/* Logout button styling */
+.logout-btn {
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #dc3545;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Alert Styling */
+.alert {
+    margin-top: 20px;
+}
+
+/* Form Styling */
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.table .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

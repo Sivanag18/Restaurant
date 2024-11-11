@@ -1,0 +1,151 @@
+  /* Header */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo-image {
+    height: 40px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links a,
+.navbar .logout-btn {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.navbar .logout-btn {
+    background-color: #dc3545;
+}
+
+.navbar .nav-links a:hover,
+.navbar .logout-btn:hover {
+    background-color: #495057;
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+.card-header h4 {
+    margin: 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #46464a;
+    color: white;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white; /* White background for odd rows */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Slightly darker for hover effect */
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-info {
+    background-color: #353838;
+}
+
+.btn-warning {
+    background-color: #2e2d2c;
+}
+
+.btn-primary {
+    background-color: #323537;
+}
+
+.btn-danger {
+    background-color: #3a3839;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    margin-left: 5px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+td a {
+    background-color: #3d3f3d;
+}
+
+td a:hover {
+    background-color: #3a3b3a;
+}
+

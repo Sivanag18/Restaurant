@@ -1,0 +1,135 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.top-header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 10px; /* Position links at the top */
+  right: 20px; /* Position links to the right */
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.hero {
+  background: url('images/img/pimg.jpg') no-repeat center center/cover;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #ff6347, #ffa07a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+.popular {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.popular h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dish {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.dish img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.dish h5 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.dish p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #5cb85c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
